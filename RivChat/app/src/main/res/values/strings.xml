@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">WCChat</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">About</string>
+    <string name="login_success">login success</string>
+    <string name="login">LOGIN</string>
+    <string name="Username">Email</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next_">NEXT</string>
+    <string name="register">REGISTER</string>
+
+    <string name="hint_username">Enter a new username</string>
+    <string name="hint_email_reset">Enter your email</string>
+    <string name="enter_group_name">Enter group name</string>
+
+
+    //
+
+    <string name="chats">Chats</string>
+    <string name="inputfiled">Search Chats</string>
+    <string name="rohit_where">Rohit: Where do I fill my i20 apply...</string>
+    <string name="u_toronto_a">U Toronto | Admits</string>
+    <string name="pm">4:30 PM</string>
+    <string name="group_link">Group Link</string>
+    <string name="add_new_member">Add New Member</string>
+    <string name="some_id">13</string>
+    <string name="see_all">See all</string>
+    <string name="suggested_g">Suggested Groups</string>
+    <string name="search_chat">Search Chats</string>
+    <string name="view">View</string>
+    <string name="group_detai">Group Details</string>
+    <string name="suggested_students">Suggested Students</string>
+    <string name="join">Join</string>
+    <string name="this_group_">This group is exclusively for students who have got their admits from University of Toronto.</string>
+    <string name="description">Description</string>
+    <string name="members">Members</string>
+    <string name="rahul_dayal">Rahul Dayal</string>
+    <string name="new_group">New Group</string>
+    <string name="u_waterloo_">U Waterloo Data Science Admits</string>
+    <string name="next">Next</string>
+    <string name="search_for_">Search for Groups, seniors, applicants...</string>
+    <string name="create_new_">Create New Group</string>
+    <string name="my_connecti">My Connections</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

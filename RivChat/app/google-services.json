@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "471589405796",
+    "firebase_url": "https://fir-groupchat-master-64bd3.firebaseio.com",
+    "project_id": "fir-groupchat-master-64bd3",
+    "storage_bucket": "fir-groupchat-master-64bd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471589405796:android:c48e05e9b2186c3b80cb71",
+        "android_client_info": {
+          "package_name": "com.android.whichcollege"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471589405796-tb84ie1br645djmvmvc5inq7csfkmqhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcFo1VGOTSAV5jSqugF0VStK4K0OfPTYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471589405796-tb84ie1br645djmvmvc5inq7csfkmqhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

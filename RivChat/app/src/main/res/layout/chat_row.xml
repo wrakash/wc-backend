@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="90dp"
+android:id="@+id/messageRelativeLayout">
+
+  <LinearLayout
+    android:id="@+id/messageLayout"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="90dp">
+
+    <TextView
+        android:id="@+id/groupChat"
+        android:layout_width="195dp"
+        android:layout_height="21dp"
+        android:fontFamily="@font/raleway_semibold"
+        android:gravity="top"
+        android:text="@string/u_toronto_a"
+        android:textAppearance="@style/u_toronto_a"/>
+
+    <TextView
+        android:id="@+id/lastMessage"
+        android:layout_width="273dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/chat_final_active"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="top"
+        android:text="@string/rohit_where"
+        android:textAppearance="@style/rohit_where"
+        android:layout_toRightOf="@+id/chat_final_active" />
+
+</LinearLayout>
+
+<de.hdodenhof.circleimageview.CircleImageView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/icon_avata"
+    android:layout_width="62dp"
+    android:layout_height="62dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="14dp"
+    android:layout_marginBottom="14dp"
+    android:background="@drawable/profile"
+    app:civ_border_width="2dp"
+    app:civ_border_color="#FF000000"/>
+
+<LinearLayout
+    android:id="@+id/chat_final_active"
+    android:layout_width="16dp"
+    android:layout_height="16dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="62dp"
+    android:layout_marginLeft="62dp"
+    android:layout_marginTop="60dp"
+    android:layout_marginBottom="14dp"
+    android:background="@drawable/ellipse_20"
+    android:layout_alignParentLeft="true">
+
+    <ImageView
+        android:id="@+id/cen"
+        android:layout_width="11.43dp"
+        android:layout_height="11.43dp"
+        android:layout_marginLeft="2.4dp"
+        android:layout_marginTop="2.4dp"
+        android:layout_toStartOf="@+id/chat_final_active"
+        android:src="@drawable/ellipse_21"
+        android:layout_toLeftOf="@+id/chat_final_active" />
+</LinearLayout>
+
+<View
+    android:id="@+id/chat_final_new_message_ball"
+    android:layout_width="22dp"
+    android:layout_height="22dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginTop="43dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="25dp"
+    android:background="@drawable/ellipse_19" />
+
+<TextView
+    android:id="@+id/timeStatus"
+    android:layout_width="wrap_content"
+    android:layout_height="15dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="25dp"
+    android:layout_marginRight="14dp"
+    android:gravity="top"
+    android:text="@string/pm"
+    android:textAppearance="@style/pm" />
+
+<TextView
+    android:id="@+id/unreadMessageCount"
+    android:layout_width="12dp"
+    android:layout_height="12dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="47dp"
+    android:layout_marginRight="21dp"
+    android:text="@string/some_id"
+    android:textAppearance="@style/some_id" />
+</RelativeLayout>
